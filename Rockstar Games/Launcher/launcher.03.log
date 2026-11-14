@@ -1,0 +1,31 @@
+[2026-10-23 18:22:38.473] [DISPLAY] [Main ] [fileutils] Checking version: C:\Program Files\Rockstar Games\Launcher\Launcher.exe
+[2026-10-23 18:22:38.476] [DISPLAY] [Main ] [fileutils] File version 1.0.109.3031 (for C:\Program Files\Rockstar Games\Launcher\Launcher.exe)
+[2026-10-23 18:22:38.493] [DISPLAY] [Main ] [sysinfo] Getting video card
+[2026-10-23 18:22:38.646] [DISPLAY] [Main ] [sysinfo] Reading vulkan version
+[2026-10-23 18:22:38.692] [DISPLAY] [Main ] [dx12] Retrieving D3D12 graphics info
+[2026-10-23 18:22:44.396] [DISPLAY] [Main ] [launcher] Opening log file.
+[2026-10-23 18:22:44.471] [WARNING] [Main ] [launcher] Unable to move log file, waiting and trying again...
+[2026-10-23 18:22:44.972] [WARNING] [Main ] [launcher] Unable to move log file, waiting and trying again...
+[2026-10-23 18:22:45.474] [WARNING] [Main ] [launcher] Couldn't move logfile C:\Users\UCC-318\OneDrive\Documents\Rockstar Games\Launcher\launcher.log!
+[2026-10-23 18:22:45.479] [DISPLAY] [Main ] [startupinfo] Command line: "C:\Program Files\Rockstar Games\Launcher\Launcher.exe" -skipPatcherCheck -minmodeApp=gta5  @args.txt
+[2026-10-23 18:22:45.479] [DISPLAY] [Main ] [startupinfo] P4 Version: Change 71879002
+[2026-10-23 18:22:45.479] [DISPLAY] [Main ] [startupinfo] Version:    1.0.109.3031
+[2026-10-23 18:22:45.479] [DISPLAY] [Main ] [startupinfo] Process ID:    3968
+[2026-10-23 18:22:45.479] [DISPLAY] [Main ] [startupinfo] Session ID:    ca431801-7ca2-11c8-94e9-531b05e7fcc1
+[2026-10-23 18:22:45.479] [DISPLAY] [Main ] [startupinfo] Name Hash:     03FE0BF9
+[2026-10-23 18:22:45.479] [DISPLAY] [Main ] [startupinfo] Time Zone: Central Daylight Time (Currently in Daylight Savings Time)
+[2026-10-23 18:22:45.479] [DISPLAY] [Main ] [startupinfo] System Time: 2026-10-23T23:22:45+00:00
+[2026-10-23 18:22:45.479] [DISPLAY] [Main ] [startupinfo] Local Time: 2026-10-23T18:22:45-05:00
+[2026-10-23 18:22:45.479] [DISPLAY] [Main ] [startupinfo] Parameters:
+[2026-10-23 18:22:45.479] [DISPLAY] [Main ] [startupinfo]     C:\Program Files\Rockstar Games\Launcher\Launcher.exe
+[2026-10-23 18:22:45.479] [DISPLAY] [Main ] [startupinfo]     -skipPatcherCheck
+[2026-10-23 18:22:45.479] [DISPLAY] [Main ] [startupinfo]     -minmodeApp=gta5
+[2026-10-23 18:22:45.479] [DISPLAY] [Main ] [startupinfo]     @args.txt
+[2026-10-23 18:22:45.480] [DISPLAY] [Main ] [startup] Initial Working Directory: C:\Program Files\Rockstar Games\Grand Theft Auto V Legacy
+[2026-10-23 18:22:45.483] [DISPLAY] [Main ] [startup] Working directory: C:\Program Files\Rockstar Games\Launcher
+[2026-10-23 18:22:45.507] [DISPLAY] [Main ] [packfile] Initialize 'Launcher.rpf' - succeeded
+[2026-10-23 18:22:45.508] [DISPLAY] [Main ] [localisation] Language updated to: 0
+[2026-10-23 18:22:46.030] [DISPLAY] [Main ] [external] Creating RGL min mode launch: gta5
+[2026-10-23 18:22:46.030] [DISPLAY] [Main ] [external] RGL App Id: gta5
+[2026-10-23 18:22:46.030] [DISPLAY] [Main ] [external] RGL Location: C:\Program Files\Rockstar Games\Grand Theft Auto V Legacy
+[2026-10-23 18:22:46.030] [DISPLAY] [Main ] [gamepipemtl] Forwarding commands: "C:\Program Files\Rockstar Games\Launcher\Launcher.exe" -skipPatcherCheck -minmodeApp=gta5  @args.txt

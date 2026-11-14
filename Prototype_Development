@@ -1,0 +1,8 @@
+#Prototype Core: Signal Transmission Test
+#Testing Parameters: Signal Latency and Error Rate
+#Test Procedure: Inject Analog Signal and Measure Output
+Latency=10 
+Error_rate=0.01
+def simulate_(signal):
+    print(f"Simulating signal: {signal}")
+    

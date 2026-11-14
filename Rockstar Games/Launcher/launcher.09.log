@@ -1,0 +1,26 @@
+[2026-10-19 15:04:01.125] [DISPLAY] [Main ] [fileutils] Checking version: C:\Program Files\Rockstar Games\Launcher\Launcher.exe
+[2026-10-19 15:04:01.127] [DISPLAY] [Main ] [fileutils] File version 1.0.109.3031 (for C:\Program Files\Rockstar Games\Launcher\Launcher.exe)
+[2026-10-19 15:04:01.128] [DISPLAY] [Main ] [sysinfo] Getting video card
+[2026-10-19 15:04:01.175] [DISPLAY] [Main ] [sysinfo] Reading vulkan version
+[2026-10-19 15:04:01.183] [DISPLAY] [Main ] [dx12] Retrieving D3D12 graphics info
+[2026-10-19 15:04:01.373] [DISPLAY] [Main ] [launcher] Opening log file.
+[2026-10-19 15:04:01.402] [WARNING] [Main ] [launcher] Unable to move log file, waiting and trying again...
+[2026-10-19 15:04:01.904] [WARNING] [Main ] [launcher] Unable to move log file, waiting and trying again...
+[2026-10-19 15:04:02.406] [WARNING] [Main ] [launcher] Couldn't move logfile C:\Users\UCC-318\OneDrive\Documents\Rockstar Games\Launcher\launcher.log!
+[2026-10-19 15:04:02.407] [DISPLAY] [Main ] [startupinfo] Command line: "C:\Program Files\Rockstar Games\Launcher\Launcher.exe" 
+[2026-10-19 15:04:02.407] [DISPLAY] [Main ] [startupinfo] P4 Version: Change 71879002
+[2026-10-19 15:04:02.407] [DISPLAY] [Main ] [startupinfo] Version:    1.0.109.3031
+[2026-10-19 15:04:02.407] [DISPLAY] [Main ] [startupinfo] Process ID:    9196
+[2026-10-19 15:04:02.407] [DISPLAY] [Main ] [startupinfo] Session ID:    79e72001-0787-1207-b1fd-cb02a251a51b
+[2026-10-19 15:04:02.407] [DISPLAY] [Main ] [startupinfo] Name Hash:     03FE0BF9
+[2026-10-19 15:04:02.407] [DISPLAY] [Main ] [startupinfo] Time Zone: Central Daylight Time (Currently in Daylight Savings Time)
+[2026-10-19 15:04:02.407] [DISPLAY] [Main ] [startupinfo] System Time: 2026-10-19T20:04:02+00:00
+[2026-10-19 15:04:02.407] [DISPLAY] [Main ] [startupinfo] Local Time: 2026-10-19T15:04:02-05:00
+[2026-10-19 15:04:02.407] [DISPLAY] [Main ] [startupinfo] Parameters:
+[2026-10-19 15:04:02.407] [DISPLAY] [Main ] [startupinfo]     C:\Program Files\Rockstar Games\Launcher\Launcher.exe
+[2026-10-19 15:04:02.417] [DISPLAY] [Main ] [startup] Initial Working Directory: C:\Program Files\Rockstar Games\Launcher
+[2026-10-19 15:04:02.417] [DISPLAY] [Main ] [startup] Working directory: C:\Program Files\Rockstar Games\Launcher
+[2026-10-19 15:04:02.445] [DISPLAY] [Main ] [packfile] Initialize 'Launcher.rpf' - succeeded
+[2026-10-19 15:04:02.446] [DISPLAY] [Main ] [localisation] Language updated to: 0
+[2026-10-19 15:04:02.538] [DISPLAY] [Main ] [minmode] Starting up normally.
+[2026-10-19 15:04:02.538] [DISPLAY] [Main ] [gamepipemtl] Forwarding commands: "C:\Program Files\Rockstar Games\Launcher\Launcher.exe" 

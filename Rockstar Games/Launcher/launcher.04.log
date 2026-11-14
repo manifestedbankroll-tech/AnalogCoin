@@ -1,0 +1,353 @@
+[2026-10-23 07:11:20.079] [DISPLAY] [Main ] [fileutils] Checking version: C:\Program Files\Rockstar Games\Launcher\Launcher.exe
+[2026-10-23 07:11:20.079] [DISPLAY] [Main ] [fileutils] File version 1.0.109.3031 (for C:\Program Files\Rockstar Games\Launcher\Launcher.exe)
+[2026-10-23 07:11:20.081] [DISPLAY] [Main ] [sysinfo] Getting video card
+[2026-10-23 07:11:20.111] [DISPLAY] [Main ] [sysinfo] Reading vulkan version
+[2026-10-23 07:11:20.111] [DISPLAY] [Main ] [dx12] Retrieving D3D12 graphics info
+[2026-10-23 07:11:20.287] [DISPLAY] [Main ] [launcher] Opening log file.
+[2026-10-23 07:11:20.315] [DISPLAY] [Main ] [startupinfo] Command line: "C:\Program Files\Rockstar Games\Launcher\Launcher.exe" -skipPatcherCheck -minmodeApp=gta5  @args.txt
+[2026-10-23 07:11:20.315] [DISPLAY] [Main ] [startupinfo] P4 Version: Change 71879002
+[2026-10-23 07:11:20.315] [DISPLAY] [Main ] [startupinfo] Version:    1.0.109.3031
+[2026-10-23 07:11:20.315] [DISPLAY] [Main ] [startupinfo] Process ID:    15988
+[2026-10-23 07:11:20.315] [DISPLAY] [Main ] [startupinfo] Session ID:    4bfa6001-08b2-1233-a1b7-10c53a68f098
+[2026-10-23 07:11:20.315] [DISPLAY] [Main ] [startupinfo] Name Hash:     03FE0BF9
+[2026-10-23 07:11:20.315] [DISPLAY] [Main ] [startupinfo] Time Zone: Central Daylight Time (Currently in Daylight Savings Time)
+[2026-10-23 07:11:20.315] [DISPLAY] [Main ] [startupinfo] System Time: 2026-10-23T12:11:20+00:00
+[2026-10-23 07:11:20.315] [DISPLAY] [Main ] [startupinfo] Local Time: 2026-10-23T07:11:20-05:00
+[2026-10-23 07:11:20.315] [DISPLAY] [Main ] [startupinfo] Parameters:
+[2026-10-23 07:11:20.315] [DISPLAY] [Main ] [startupinfo]     C:\Program Files\Rockstar Games\Launcher\Launcher.exe
+[2026-10-23 07:11:20.315] [DISPLAY] [Main ] [startupinfo]     -skipPatcherCheck
+[2026-10-23 07:11:20.315] [DISPLAY] [Main ] [startupinfo]     -minmodeApp=gta5
+[2026-10-23 07:11:20.315] [DISPLAY] [Main ] [startupinfo]     @args.txt
+[2026-10-23 07:11:20.316] [DISPLAY] [Main ] [startup] Initial Working Directory: C:\Program Files\Rockstar Games\Grand Theft Auto V Legacy
+[2026-10-23 07:11:20.316] [DISPLAY] [Main ] [startup] Working directory: C:\Program Files\Rockstar Games\Launcher
+[2026-10-23 07:11:20.336] [DISPLAY] [Main ] [packfile] Initialize 'Launcher.rpf' - succeeded
+[2026-10-23 07:11:20.337] [DISPLAY] [Main ] [localisation] Language updated to: 0
+[2026-10-23 07:11:20.421] [DISPLAY] [Main ] [external] Creating RGL min mode launch: gta5
+[2026-10-23 07:11:20.421] [DISPLAY] [Main ] [external] RGL App Id: gta5
+[2026-10-23 07:11:20.421] [DISPLAY] [Main ] [external] RGL Location: C:\Program Files\Rockstar Games\Grand Theft Auto V Legacy
+[2026-10-23 07:11:20.421] [DISPLAY] [Main ] [environment] SetEnvironment: prod
+[2026-10-23 07:11:20.438] [ ERROR ] [Main ] [fileutils] Failed to delete directory: C:\Users\UCC-318\OneDrive\Documents\Rockstar Games\Social Club\Renderer\PrivacySandboxAttestationsPreloaded
+[2026-10-23 07:11:20.440] [ ERROR ] [Main ] [fileutils] Failed to delete directory: C:\Users\UCC-318\OneDrive\Documents\Rockstar Games\Social Club\Renderer\ProbabilisticRevealTokenRegistry
+[2026-10-23 07:11:20.441] [ ERROR ] [Main ] [fileutils] Failed to delete directory: C:\Users\UCC-318\OneDrive\Documents\Rockstar Games\Social Club\Renderer\AmountExtractionHeuristicRegexes
+[2026-10-23 07:11:20.442] [ ERROR ] [Main ] [fileutils] Failed to delete directory: C:\Users\UCC-318\OneDrive\Documents\Rockstar Games\Social Club\Renderer\TrustTokenKeyCommitments
+[2026-10-23 07:11:20.443] [ ERROR ] [Main ] [fileutils] Failed to delete directory: C:\Users\UCC-318\OneDrive\Documents\Rockstar Games\Social Club\Renderer\OnDeviceHeadSuggestModel
+[2026-10-23 07:11:20.444] [ ERROR ] [Main ] [fileutils] Failed to delete directory: C:\Users\UCC-318\OneDrive\Documents\Rockstar Games\Social Club\Renderer\FirstPartySetsPreloaded
+[2026-10-23 07:11:20.445] [ ERROR ] [Main ] [fileutils] Failed to delete directory: C:\Users\UCC-318\OneDrive\Documents\Rockstar Games\Social Club\Renderer\CertificateRevocation
+[2026-10-23 07:11:20.447] [ ERROR ] [Main ] [fileutils] Failed to delete directory: C:\Users\UCC-318\OneDrive\Documents\Rockstar Games\Social Club\Renderer\CookieReadinessList
+[2026-10-23 07:11:20.450] [ ERROR ] [Main ] [fileutils] Failed to delete directory: C:\Users\UCC-318\OneDrive\Documents\Rockstar Games\Social Club\Renderer\OpenCookieDatabase
+[2026-10-23 07:11:20.451] [ ERROR ] [Main ] [fileutils] Failed to delete directory: C:\Users\UCC-318\OneDrive\Documents\Rockstar Games\Social Club\Renderer\SSLErrorAssistant
+[2026-10-23 07:11:20.453] [ ERROR ] [Main ] [fileutils] Failed to delete directory: C:\Users\UCC-318\OneDrive\Documents\Rockstar Games\Social Club\Renderer\OptimizationHints
+[2026-10-23 07:11:20.454] [ ERROR ] [Main ] [fileutils] Failed to delete directory: C:\Users\UCC-318\OneDrive\Documents\Rockstar Games\Social Club\Renderer\FileTypePolicies
+[2026-10-23 07:11:20.455] [ ERROR ] [Main ] [fileutils] Failed to delete directory: C:\Users\UCC-318\OneDrive\Documents\Rockstar Games\Social Club\Renderer\ActorSafetyLists
+[2026-10-23 07:11:20.456] [ ERROR ] [Main ] [fileutils] Failed to delete directory: C:\Users\UCC-318\OneDrive\Documents\Rockstar Games\Social Club\Renderer\AutofillStates
+[2026-10-23 07:11:20.458] [ ERROR ] [Main ] [fileutils] Failed to delete directory: C:\Users\UCC-318\OneDrive\Documents\Rockstar Games\Social Club\Renderer\WasmTtsEngine
+[2026-10-23 07:11:20.459] [ ERROR ] [Main ] [fileutils] Failed to delete directory: C:\Users\UCC-318\OneDrive\Documents\Rockstar Games\Social Club\Renderer\Safe Browsing
+[2026-10-23 07:11:20.460] [ ERROR ] [Main ] [fileutils] Failed to delete directory: C:\Users\UCC-318\OneDrive\Documents\Rockstar Games\Social Club\Renderer\TpcdMetadata
+[2026-10-23 07:11:20.462] [ ERROR ] [Main ] [fileutils] Failed to delete directory: C:\Users\UCC-318\OneDrive\Documents\Rockstar Games\Social Club\Renderer\OriginTrials
+[2026-10-23 07:11:20.463] [ ERROR ] [Main ] [fileutils] Failed to delete directory: C:\Users\UCC-318\OneDrive\Documents\Rockstar Games\Social Club\Renderer\Dictionaries
+[2026-10-23 07:11:20.465] [ ERROR ] [Main ] [fileutils] Failed to delete directory: C:\Users\UCC-318\OneDrive\Documents\Rockstar Games\Social Club\Renderer\PKIMetadata
+[2026-10-23 07:11:20.466] [ ERROR ] [Main ] [fileutils] Failed to delete directory: C:\Users\UCC-318\OneDrive\Documents\Rockstar Games\Social Club\Renderer\hyphen-data
+[2026-10-23 07:11:20.467] [ ERROR ] [Main ] [fileutils] Failed to delete directory: C:\Users\UCC-318\OneDrive\Documents\Rockstar Games\Social Club\Renderer\WidevineCdm
+[2026-10-23 07:11:20.469] [ ERROR ] [Main ] [fileutils] Failed to delete directory: C:\Users\UCC-318\OneDrive\Documents\Rockstar Games\Social Club\Renderer\MEIPreload
+[2026-10-23 07:11:20.470] [ ERROR ] [Main ] [fileutils] Failed to delete directory: C:\Users\UCC-318\OneDrive\Documents\Rockstar Games\Social Club\Renderer\SafetyTips
+[2026-10-23 07:11:20.472] [ ERROR ] [Main ] [fileutils] Failed to delete directory: C:\Users\UCC-318\OneDrive\Documents\Rockstar Games\Social Club\Renderer\ZxcvbnData
+[2026-10-23 07:11:20.473] [ ERROR ] [Main ] [fileutils] Failed to delete directory: C:\Users\UCC-318\OneDrive\Documents\Rockstar Games\Social Club\Renderer\Crowd Deny
+[2026-10-23 07:11:20.479] [ ERROR ] [Main ] [fileutils] Failed to delete directory: C:\Users\UCC-318\OneDrive\Documents\Rockstar Games\GTAV Enhanced\User Music
+[2026-10-23 07:11:20.486] [ ERROR ] [Main ] [fileutils] Failed to delete directory: C:\Users\UCC-318\OneDrive\Documents\Rockstar Games\GTA V\User Music
+[2026-10-23 07:11:20.487] [DISPLAY] [Main ] [subsystem] Init phase 1
+[2026-10-23 07:11:20.488] [DISPLAY] [Main ] [fileutils] Checking version: C:\Program Files\Rockstar Games\Launcher\RockstarService.exe
+[2026-10-23 07:11:20.489] [DISPLAY] [Main ] [fileutils] File version 1.0.109.3031 (for C:\Program Files\Rockstar Games\Launcher\RockstarService.exe)
+[2026-10-23 07:11:20.489] [DISPLAY] [Main ] [svc] Service version: 1.0.109.3031 (1.0.109.3031)
+[2026-10-23 07:11:20.491] [DISPLAY] [Main ] [svc] Starting service (attempt 1 / 3)...
+[2026-10-23 07:11:20.517] [DISPLAY] [Main ] [launcher] Launcher: 0, *0,  4, 1239, -1, 0, 0
+[2026-10-23 07:11:20.517] [DISPLAY] [Main ] [titlestorage] Installed titles:
+[2026-10-23 07:11:20.517] [DISPLAY] [Main ] [titlestorage]  Title                             Progress               Version              Location                                                    
+[2026-10-23 07:11:20.517] [DISPLAY] [Main ] [titlestorage]  Grand Theft Auto V Legacy         Up-to-date             1.0.3889.0           C:\Program Files\Rockstar Games\Grand Theft Auto V Legacy   
+[2026-10-23 07:11:20.560] [DISPLAY] [Main ] [marketing_promo] Promotions view key available
+[2026-10-23 07:11:20.562] [DISPLAY] [Main ] [subsystem] Initializing group 0...
+[2026-10-23 07:11:20.562] [DISPLAY] [Main ] [subsystem] Init phase 2
+[2026-10-23 07:11:20.562] [DISPLAY] [Main ] [subsystem] Starting systems...
+[2026-10-23 07:11:20.562] [DISPLAY] [Main ] [subsystem] Starting diag...
+[2026-10-23 07:11:20.562] [DISPLAY] [Main ] [fileutils] Checking local versions...
+[2026-10-23 07:11:20.563] [DISPLAY] [Main ] [fileutils] Checking version: C:\Program Files\Rockstar Games\Social Club\socialclub.dll
+[2026-10-23 07:11:20.567] [DISPLAY] [Main ] [fileutils] File version 2.4.0.240 (for C:\Program Files\Rockstar Games\Social Club\socialclub.dll)
+[2026-10-23 07:11:20.567] [DISPLAY] [Main ] [fileutils] Checking RGL version...
+[2026-10-23 07:11:20.567] [DISPLAY] [Main ] [fileutils] Version: 2.4.0.240 | 1.0.109.3031 | FFP
+[2026-10-23 07:11:20.567] [DISPLAY] [Main ] [subsystem] Starting net...
+[2026-10-23 07:11:20.580] [DISPLAY] [Main ] [subsystem] Assigning pools...
+[2026-10-23 07:11:20.580] [DISPLAY] [Main ] [subsystem] Initializing engine...
+[2026-10-23 07:11:20.581] [DISPLAY] [Main ] [subsystem] Initializing group 1...
+[2026-10-23 07:11:20.703] [DISPLAY] [Workr] [selfupdate] Up-to-date.
+[2026-10-23 07:11:20.934] [DISPLAY] [Main ] [systemtray] System tray: enabled
+[2026-10-23 07:11:20.957] [DISPLAY] [Main ] [launcher] Passed check: majorVersion(10.0.26100) >= 10
+[2026-10-23 07:11:20.984] [DISPLAY] [Main ] [svc] Connected to service (15988 -> 10632)
+[2026-10-23 07:11:21.006] [DISPLAY] [Main ] [packages] UI package cache cleanup succeeded: 34 files, 0 cleaned
+[2026-10-23 07:11:21.291] [DISPLAY] [bgsvc] [svc] Received response from service.
+[2026-10-23 07:11:21.291] [DISPLAY] [bgsvc] [svc] Handshake received from service.
+[2026-10-23 07:11:21.330] [DISPLAY] [bgsvc] [svc_mem] Service reports allocation success: 2097152 bytes
+[2026-10-23 07:11:21.330] [DISPLAY] [bgsvc] [svc_mem] Attempting to map shared mem...
+[2026-10-23 07:11:21.330] [DISPLAY] [bgsvc] [svc_mem] Successfully mapped shared mem.
+[2026-10-23 07:11:21.341] [DISPLAY] [Main ] [folderfix] Requesting fix of non-admin folder locations
+[2026-10-23 07:11:21.366] [ ERROR ] [bgsvc] [folderfix] Folder permissions operation failed
+[2026-10-23 07:11:21.391] [DISPLAY] [http1] [idownloader] Starting download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/launcher_online_config.xml'
+[2026-10-23 07:11:21.651] [DISPLAY] [http1] [idownloader] Completed download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/launcher_online_config.xml' (status: 0/200)
+[2026-10-23 07:11:21.717] [DISPLAY] [Workr] [marketing_promo] No promotion manifest in memory, refreshing from cloud.
+[2026-10-23 07:11:21.717] [DISPLAY] [Workr] [marketing_promo] Requesting new manifest
+[2026-10-23 07:11:21.717] [DISPLAY] [Workr] [titlemanager] Downloading title list...
+[2026-10-23 07:11:21.717] [DISPLAY] [Workr] [titlemanager] Downloading default title list (SCS)...
+[2026-10-23 07:11:21.717] [DISPLAY] [Workr] [idownloader] Starting download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetDefaultApps?accessToken='
+[2026-10-23 07:11:22.018] [DISPLAY] [Workr] [idownloader] Completed download of 'https://rgl-prod.ros.rockstargames.com/launcher/11/LauncherServices/App.asmx/GetDefaultApps?accessToken=' (status: 0/200)
+[2026-10-23 07:11:22.018] [DISPLAY] [Workr] [services] Obtained NA-BAT for default
+[2026-10-23 07:11:22.019] [DISPLAY] [Workr] [services] Parsed response from GetDefaultApps: 1 title(s), 1 branch(es)
+[2026-10-23 07:11:22.019] [DISPLAY] [Workr] [titlemanager] Retrieved default title: launcher
+[2026-10-23 07:11:22.019] [DISPLAY] [Workr] [titlemanager] Launcher tokens: BAT: false, NA-BAT: true
+[2026-10-23 07:11:22.021] [DISPLAY] [Workr] [titlemanager] Title list updated.
+[2026-10-23 07:11:22.021] [DISPLAY] [Workr] [launcher] Launcher: 2, *0,  4, 1239, -1, 0, BRANCHACCESS token="fiJAv3FTZN9kquygzBEPPQuiQsC9ryLEyEny6XqQGCo/RCHs3oLiDQgk4UJ+QWrrCbbV68NkkC6pTahxrhIqFb1hjX5eqRWsEw1VdSj8HZ4=",signature="XIlU7lLb+OSOVfYAdfKxPGZiBEY4IAgbybVp3aGPtWQ=",keyversion="2"
+[2026-10-23 07:11:22.021] [DISPLAY] [Workr] [launcher] Checking for self-update...
+[2026-10-23 07:11:22.031] [DISPLAY] [Workr] [mergedmanifest] Using regular build for launcher
+[2026-10-23 07:11:22.031] [DISPLAY] [Workr] [titleupdater] Doing chunk checks for launcher...
+[2026-10-23 07:11:22.292] [DISPLAY] [Workr] [titleupdater] Checked 61 chunk(s), 0 were empty, skipped 0 chunk(s) and 0 file(s)
+[2026-10-23 07:11:22.295] [DISPLAY] [Workr] [statuschecker] Title Rockstar Games Launcher: No update
+[2026-10-23 07:11:22.324] [DISPLAY] [Workr] [launcher] No self-update, continuing.
+[2026-10-23 07:11:22.340] [DISPLAY] [Workr] [launcher] Checking for prerequisite updates...
+[2026-10-23 07:11:22.340] [DISPLAY] [Workr] [fileutils] Checking version: C:\Program Files\Rockstar Games\Launcher\Redistributables\SocialClub\Social-Club-Setup.exe
+[2026-10-23 07:11:22.345] [DISPLAY] [Workr] [fileutils] File version 2.4.0.240 (for C:\Program Files\Rockstar Games\Launcher\Redistributables\SocialClub\Social-Club-Setup.exe)
+[2026-10-23 07:11:22.345] [DISPLAY] [Workr] [fileutils] Checking version: C:\Program Files\Rockstar Games\Social Club\socialclub.dll
+[2026-10-23 07:11:22.346] [DISPLAY] [Workr] [fileutils] File version 2.4.0.240 (for C:\Program Files\Rockstar Games\Social Club\socialclub.dll)
+[2026-10-23 07:11:22.346] [DISPLAY] [Workr] [selfupdate] The Social Club version available matches that currently installed (both: 2.4.0.240)
+[2026-10-23 07:11:22.346] [DISPLAY] [Workr] [launcher] Checking minimum SDK requirement
+[2026-10-23 07:11:22.346] [DISPLAY] [Workr] [fileutils] Checking version: C:\Program Files\Rockstar Games\Social Club\socialclub.dll
+[2026-10-23 07:11:22.346] [DISPLAY] [Workr] [fileutils] File version 2.4.0.240 (for C:\Program Files\Rockstar Games\Social Club\socialclub.dll)
+[2026-10-23 07:11:22.473] [DISPLAY] [Workr] [launcher] Completed Pre-initialization tasks
+[2026-10-23 07:11:22.474] [WARNING] [Scang] [manifestmanager] Couldn't get current version for title 'gta5'
+[2026-10-23 07:11:22.476] [DISPLAY] [Main ] [subsystem] Init phase 3
+[2026-10-23 07:11:22.476] [DISPLAY] [Main ] [subsystem] RGL Offline Assets path: C:\Program Files\Rockstar Games\Launcher\offline.pak
+[2026-10-23 07:11:22.476] [DISPLAY] [Main ] [subsystem] Intializing connection manager.
+[2026-10-23 07:11:22.476] [DISPLAY] [Main ] [subsystem] Initializing RAGE networking.
+[2026-10-23 07:11:23.003] [DISPLAY] [Main ] [subsystem] Initializing group 2...
+[2026-10-23 07:11:23.003] [DISPLAY] [Workr] [dx11] Retrieving D3D11 device info
+[2026-10-23 07:11:23.107] [DISPLAY] [Workr] [requirements] Retrieving system information
+[2026-10-23 07:11:23.107] [DISPLAY] [Workr] [sysinfo] Getting available storage information
+[2026-10-23 07:11:23.107] [DISPLAY] [Workr] [sysinfo] Checking disk mapping
+[2026-10-23 07:11:29.765] [DISPLAY] [Main ] [sysinfo] Identified device Type: 0
+[2026-10-23 07:11:30.099] [DISPLAY] [Main ] [rline_pc] DisplayPackagesEnabled tunable: 1
+[2026-10-23 07:11:30.137] [DISPLAY] [Main ] [scuicallbacks] Public IP Address: 97.234.95.23
+[2026-10-23 07:11:30.186] [DISPLAY] [Main ] [launcher] Social Club UI has started.
+[2026-10-23 07:11:30.186] [DISPLAY] [Main ] [fileutils] Checking version: C:\Program Files\Rockstar Games\Social Club\socialclub.dll
+[2026-10-23 07:11:30.187] [DISPLAY] [Main ] [fileutils] File version 2.4.0.240 (for C:\Program Files\Rockstar Games\Social Club\socialclub.dll)
+[2026-10-23 07:11:30.516] [DISPLAY] [Main ] [launcher] Time to start up: 10523 ms
+[2026-10-23 07:11:30.584] [DISPLAY] [Main ] [systemtray] System tray: enabled
+[2026-10-23 07:11:30.906] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetContext: Invalid -> Auth
+[2026-10-23 07:11:30.906] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetState: Invalid -> WaitForBrowser
+[2026-10-23 07:11:30.922] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetState: WaitForBrowser -> WaitForWindow
+[2026-10-23 07:11:31.603] [DISPLAY] [Workr] [sysinfo] Querying disk info
+[2026-10-23 07:11:34.983] [DISPLAY] [Admin] [external] Setting up rgl title: gta5
+[2026-10-23 07:11:34.983] [DISPLAY] [Admin] [external] Successfully setup title
+[2026-10-23 07:11:37.933] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetState: WaitForWindow -> Active
+[2026-10-23 07:11:38.780] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetState: Active -> WaitForBrowser
+[2026-10-23 07:11:38.787] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetState: WaitForBrowser -> WaitForWindow
+[2026-10-23 07:11:38.787] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetState: WaitForWindow -> Active
+[2026-10-23 07:11:58.085] [DISPLAY] [Workr] [sysinfo] Getting video card
+[2026-10-23 07:11:59.782] [DISPLAY] [Workr] [sysinfo] Reading vulkan version
+[2026-10-23 07:11:59.817] [DISPLAY] [Workr] [dx12] Retrieving D3D12 graphics info
+[2026-10-23 07:12:11.520] [DISPLAY] [Workr] [sysinfo] Querying CPU information
+[2026-10-23 07:12:11.521] [DISPLAY] [Workr] [sysinfo] System Configuration: 
+ CPU Info:
+  ID: Intel64 Family 6 Model 156 Stepping 0
+  Name: Intel(R) Celeron(R) N5095 @ 2.00GHz
+  Clock Speed: 2.00 GHZ
+  Physical Cores: 4
+  Logical Cores: 4
+  SSE 4.1: enabled
+  SSE 4.2: enabled
+
+ Disk 0 (C:\)
+  Disk Type: SSD
+  Bytes Free: 284852670464
+  Bytes Total: 511043432448
+
+Memory Info:
+ 8589934592 B
+ 8 GB
+
+ GPU 0
+  Description: Intel(R) UHD Graphics
+  Capacity (Bytes): 134217728
+  Display Capacity: 0.1 GB
+[2026-10-23 07:12:11.785] [DISPLAY] [Workr] [idownloader] Starting download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/marketing.json'
+[2026-10-23 07:12:15.366] [DISPLAY] [Workr] [idownloader] Completed download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/marketing.json' (status: 0/200)
+[2026-10-23 07:12:15.648] [DISPLAY] [Workr] [fileutils] Could not enumerate files in folder 'C:\Users\UCC-318\AppData\Local\Rockstar Games\Launcher\IconCache', path not found.
+[2026-10-23 07:14:33.223] [DISPLAY] [Main ] [rline_pc] Auth result's correlationId: f808e394-574b-4e63-b5cd-fb894f5dda32 and status 200
+[2026-10-23 07:14:34.025] [DISPLAY] [Main ] [rline_pc] /launcher/11/launcherservices/Accounts.asmx/GetAccountPrivacy 200 | 0 | 9765e3d7-4a00-40fe-89f3-c3b377ae071f
+[2026-10-23 07:14:34.059] [DISPLAY] [Main ] [rline_pc] Notifying front-end of external launch post-sign in
+[2026-10-23 07:14:34.059] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetContext: Auth -> MainWindow
+[2026-10-23 07:14:34.059] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetState: Active -> WaitForBrowser
+[2026-10-23 07:14:34.086] [DISPLAY] [Main ] [ui_mainwindow] Using DPI 120,120
+[2026-10-23 07:14:34.086] [DISPLAY] [Main ] [ui_mainwindow] Using UI Scale: 1.25
+[2026-10-23 07:14:34.086] [DISPLAY] [Main ] [ui_mainwindow] Using saved geometry: 164,45 (1592 x 930)
+[2026-10-23 07:14:34.141] [DISPLAY] [Main ] [rline_presence] 	 Signed In
+[2026-10-23 07:14:34.141] [DISPLAY] [Main ] [rline_presence] Gamer:"terridactileJOEM"[handle=SC 271593882] SIGNED IN
+[2026-10-23 07:14:34.141] [DISPLAY] [Main ] [launcher] Presence Event - Signed In
+[2026-10-23 07:14:34.141] [DISPLAY] [Main ] [launcher] User 'terridactileJOEM' is now signed in
+[2026-10-23 07:14:34.217] [DISPLAY] [Main ] [rline_ros_client] SetCredentials: Updating credentials
+[2026-10-23 07:14:34.217] [DISPLAY] [Main ] [rline_presence] Gamer:"terridactileJOEM"[handle=SC 271593882] SIGNED ONLINE
+[2026-10-23 07:14:34.217] [DISPLAY] [Main ] [launcher] Presence Event :: Went Online
+[2026-10-23 07:14:34.218] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetState: WaitForBrowser -> WaitForWindow
+[2026-10-23 07:14:34.218] [DISPLAY] [Main ] [ui_window_controller] UiWindowController::SetState: WaitForWindow -> Active
+[2026-10-23 07:14:34.227] [DISPLAY] [Workr] [titlemanager] Downloading title list...
+[2026-10-23 07:14:34.275] [DISPLAY] [Workr] [launcher] Launcher: 1, *0,  4, 1239, -1, BRANCHACCESS token="9hyamIq0SbFOwaN18XMQlXYLjevUJoS4xHkHVYrNWqbk7C9lAXn+9b0aPOS1SDElaHqYDtYnyW3KeffjUtlMg69Hm+FX8lNeiCqajP+ETUw=",signature="jZC15bAPdwzAQGnroql7ZgWfktEgcSN1Fi0D4c2KFVg=",keyversion="2", BRANCHACCESS token="fiJAv3FTZN9kquygzBEPPQuiQsC9ryLEyEny6XqQGCo/RCHs3oLiDQgk4UJ+QWrrCbbV68NkkC6pTahxrhIqFb1hjX5eqRWsEw1VdSj8HZ4=",signature="XIlU7lLb+OSOVfYAdfKxPGZiBEY4IAgbybVp3aGPtWQ=",keyversion="2"
+[2026-10-23 07:14:34.275] [DISPLAY] [Workr] [titlemanager] Downloading title list (SCS)...
+[2026-10-23 07:14:34.275] [DISPLAY] [Workr] [titlemanager] Retrieving apps and packages list
+[2026-10-23 07:14:39.085] [DISPLAY] [Main ] [scuicallbacks] Enabling Downloading
+[2026-10-23 07:14:39.136] [DISPLAY] [Main ] [launcher] Friend Event - Friends are Available
+[2026-10-23 07:14:39.565] [DISPLAY] [Main ] [rline_roshttptask] /launcher/11/launcherservices/GeoLocation.asmx/GetLocationInfoFromIP | 200 | 0 | 5e707423-8945-428b-959f-7b2d4a9dbfdd
+[2026-10-23 07:14:39.635] [DISPLAY] [Main ] [rline_roshttptask] /launcher/11/launcherservices/Telemetry.asmx/GetTelemetryClientConfig | 200 | 0 | 2613c2ed-6cc6-4851-8dbd-117d3cefccf0
+[2026-10-23 07:14:39.684] [DISPLAY] [Main ] [rline_roshttptask] /launcher/11/launcherservices/app.asmx/GetAppsAndPackages | 200 | 0 | f1516204-f2a0-49b2-a9e1-3dd2e373ff89
+[2026-10-23 07:14:39.685] [DISPLAY] [Main ] [packages] Exporting UI package data: C:\Users\UCC-318\AppData\Local\Rockstar Games\Launcher\uipackages\profiles\271593882.dat (6 packages for user 271593882)
+[2026-10-23 07:14:39.702] [DISPLAY] [Main ] [rline_roshttptask] /launcher/11/launcherservices/presence.asmx/GetPresenceServers | 200 | 0 | e19a8875-2fc4-48f6-82f4-c3610d22aebf
+[2026-10-23 07:14:40.010] [DISPLAY] [Workr] [titlemanager] Title list updated.
+[2026-10-23 07:14:40.025] [DISPLAY] [Workr] [launcher] Launcher: 3, *0,  4, 1239, -1, BRANCHACCESS token="mhTr3bNg3rsHe/TTFJWJGpFQejdIelqzwOkZ3IOxyCDOEOZZ7Ml6gomKiN+Oxt/RyPlRRv34DVvZZLl1Gxu4miBGKBBiEG8eI3En4XnD2ws=",signature="WetWnXPpp8SlVxlXQxTgDNDhz6NkETfrHr33hD6YayA=",keyversion="2", BRANCHACCESS token="fiJAv3FTZN9kquygzBEPPQuiQsC9ryLEyEny6XqQGCo/RCHs3oLiDQgk4UJ+QWrrCbbV68NkkC6pTahxrhIqFb1hjX5eqRWsEw1VdSj8HZ4=",signature="XIlU7lLb+OSOVfYAdfKxPGZiBEY4IAgbybVp3aGPtWQ=",keyversion="2"
+[2026-10-23 07:14:40.029] [DISPLAY] [Workr] [mergedmanifest] Using build collection for gta5
+[2026-10-23 07:14:41.665] [DISPLAY] [Main ] [rline_roshttptask] /launcher/11/launcherservices/Presence.asmx/ReplaceAttributes | 200 | 0 | 3f99d9dd-ad24-4fac-a887-09b76f100ca0
+[2026-10-23 07:14:41.711] [DISPLAY] [Main ] [rline_roshttptask] /launcher/11/launcherservices/ProfileStatGroups.asmx/ReadByGroup | 200 | 0 | 43dbd729-cbe0-468e-9716-1b29ca05d4c2
+[2026-10-23 07:14:42.823] [DISPLAY] [Main ] [rline_roshttptask] /launcher/11/launcherservices/app.asmx/GetBuildCollection2 | 200 | 0 | ae4a7058-ae5a-4e7f-b115-b475ace48a7e
+[2026-10-23 07:14:42.993] [DISPLAY] [Main ] [rline_roshttptask] /launcher/11/launcherservices/ProfileStatGroups.asmx/SubmitUpdate | 200 | 0 | f546b11c-6f61-46f8-988d-94667eefa311
+[2026-10-23 07:14:43.161] [DISPLAY] [Main ] [rline_pc] /launcher/11/launcherservices/entitlements.asmx/ValidateContentPlayerAge 200 | 0 | 0ebcb7b1-485b-4de9-8085-4993797226ac
+[2026-10-23 07:14:44.661] [DISPLAY] [Workr] [titleupdater] Doing chunk checks for gta5...
+[2026-10-23 07:14:51.600] [DISPLAY] [Workr] [titleupdater] Checked 1593 chunk(s), 0 were empty, skipped 0 chunk(s) and 0 file(s)
+[2026-10-23 07:14:51.742] [DISPLAY] [Workr] [statuschecker] Title Grand Theft Auto V Legacy: No update
+[2026-10-23 07:14:51.742] [DISPLAY] [Workr] [external] No updates needed for title gta5.
+[2026-10-23 07:14:51.749] [DISPLAY] [Main ] [external] Client is ready to attempt a launch.
+[2026-10-23 07:14:51.766] [DISPLAY] [Main ] [external] Attempting external title launch...
+[2026-10-23 07:14:51.767] [DISPLAY] [Main ] [gamelaunch] Begin game launch: gta5
+[2026-10-23 07:14:51.767] [DISPLAY] [Main ] [gamelaunch] Flags: 129
+[2026-10-23 07:14:51.767] [DISPLAY] [Main ] [gamelaunch] Path: C:\Program Files\Rockstar Games\Grand Theft Auto V Legacy
+[2026-10-23 07:14:51.787] [DISPLAY] [13084] [gamelaunch] Game launch thread: started
+[2026-10-23 07:14:51.787] [DISPLAY] [13084] [gamelaunch] Launch Folder: C:\Program Files\Rockstar Games\Grand Theft Auto V Legacy
+[2026-10-23 07:14:51.787] [DISPLAY] [13084] [gamelaunch] Launch Path: C:\Program Files\Rockstar Games\Grand Theft Auto V Legacy\GTA5.exe
+[2026-10-23 07:14:51.788] [DISPLAY] [13084] [fileutils] Checking version: C:\Program Files\Rockstar Games\Grand Theft Auto V Legacy\GTA5.exe
+[2026-10-23 07:14:51.803] [DISPLAY] [13084] [fileutils] File version 1.0.3889.0 (for C:\Program Files\Rockstar Games\Grand Theft Auto V Legacy\GTA5.exe)
+[2026-10-23 07:14:51.808] [DISPLAY] [13084] [mergedmanifest] Using build collection for gta5
+[2026-10-23 07:14:51.815] [DISPLAY] [13084] [titleupdater] Doing chunk checks for gta5...
+[2026-10-23 07:14:52.181] [DISPLAY] [13084] [titleupdater] Checked 1593 chunk(s), 0 were empty, skipped 0 chunk(s) and 0 file(s)
+[2026-10-23 07:14:52.190] [DISPLAY] [13084] [statuschecker] Title Grand Theft Auto V Legacy: No update
+[2026-10-23 07:14:52.190] [DISPLAY] [13084] [gamelaunch] RGL is up to date (current: 1.0.109.3031, minimum: 1.0.97.2200)
+[2026-10-23 07:14:52.190] [DISPLAY] [13084] [fileutils] Checking version: C:\Program Files\Rockstar Games\Grand Theft Auto V Legacy\GTA5.exe
+[2026-10-23 07:14:52.191] [DISPLAY] [13084] [fileutils] File version 1.0.3889.0 (for C:\Program Files\Rockstar Games\Grand Theft Auto V Legacy\GTA5.exe)
+[2026-10-23 07:14:52.191] [DISPLAY] [13084] [gamelaunch] Grand Theft Auto V Legacy is up to date (current: 1.0.3889.0, minimum: 1.0.3351.0)
+[2026-10-23 07:14:52.191] [DISPLAY] [13084] [fileutils] Checking version: C:\Program Files\Rockstar Games\Social Club\socialclub.dll
+[2026-10-23 07:14:52.191] [DISPLAY] [13084] [fileutils] File version 2.4.0.240 (for C:\Program Files\Rockstar Games\Social Club\socialclub.dll)
+[2026-10-23 07:14:52.810] [DISPLAY] [Main ] [rline_roshttptask] /launcher/11/launcherservices/entitlements.asmx/MirrorEntitlementsPcGtaPlusAsync | 200 | 0 | 5cfd2e4e-c86c-4d92-a541-0e810add39ae
+[2026-10-23 07:14:52.844] [DISPLAY] [Admin] [titlemanager] Downloading title list...
+[2026-10-23 07:14:52.844] [DISPLAY] [Admin] [titlemanager] Downloading title list (SCS)...
+[2026-10-23 07:14:52.844] [DISPLAY] [Admin] [titlemanager] Retrieving apps and packages list
+[2026-10-23 07:14:53.289] [DISPLAY] [Main ] [rline_roshttptask] /launcher/11/launcherservices/app.asmx/GetTitleAccessToken2 | 200 | 0 | efa3ee91-4fbe-4c3e-b90f-2f3913409555
+[2026-10-23 07:14:53.306] [DISPLAY] [Main ] [rline_roshttptask] /launcher/11/launcherservices/app.asmx/GetAppsAndPackages | 200 | 0 | bedcad3e-1423-4e70-aa19-502b4bf5d6a6
+[2026-10-23 07:14:53.349] [DISPLAY] [Admin] [titlemanager] Title list updated.
+[2026-10-23 07:14:53.366] [DISPLAY] [Admin] [launcher] Launcher: 3, *0,  4, 1239, -1, BRANCHACCESS token="W/rP6/5fkUUgQT21666/+LSRB1S9+tz1aJ4kU5XwItZ/s/urCoJTyw+Lw0AP7wUZKk+cuTTEGldKER6nmNaFpe7sz5pY9W3bshGxaM1JoHI=",signature="Ogv0P3wAwXSY+iSaMVLbZl7Zo4jFBAoJgqU2UJhljJc=",keyversion="2", BRANCHACCESS token="fiJAv3FTZN9kquygzBEPPQuiQsC9ryLEyEny6XqQGCo/RCHs3oLiDQgk4UJ+QWrrCbbV68NkkC6pTahxrhIqFb1hjX5eqRWsEw1VdSj8HZ4=",signature="XIlU7lLb+OSOVfYAdfKxPGZiBEY4IAgbybVp3aGPtWQ=",keyversion="2"
+[2026-10-23 07:14:55.639] [DISPLAY] [Main ] [rline_roshttptask] /launcher/11/launcherservices/entitlements.asmx/GetEntitlementBlock | 200 | 0 | 3114f653-3fda-43b0-87f5-486a7867e39d
+[2026-10-23 07:14:55.741] [DISPLAY] [Main ] [cloudsaveop] Cloud Save sync requested for app 'gta5'
+[2026-10-23 07:14:55.758] [DISPLAY] [Main ] [cloudsaveop] Starting cloud save enabled check for app 'gta5'
+[2026-10-23 07:14:55.772] [DISPLAY] [Main ] [cloudsaveop] Received cloud saves enabled state for app 'gta5' = enabled
+[2026-10-23 07:14:55.772] [DISPLAY] [Main ] [cloudsaveop] Identifying potential cloud save conflicts for app 'gta5'
+[2026-10-23 07:14:56.117] [DISPLAY] [x2150] [rline_pc] /launcher/11/launcherservices/cloudsave.asmx/GetCloudSaveManifest 200 | 0 | 1043173b-3b57-43fb-ba2f-18352111880a
+[2026-10-23 07:14:56.141] [DISPLAY] [Main ] [cloudsaveop] Received modification list of cloud save files for title 'gta5'
+[2026-10-23 07:14:56.141] [DISPLAY] [Main ] [cloudsaveop] Retrieving conflict metadata for app 'gta5'
+[2026-10-23 07:14:56.158] [DISPLAY] [Main ] [cloudsaveop] Downloaded conflict metadata for app 'gta5'
+[2026-10-23 07:14:56.158] [DISPLAY] [Main ] [cloudsaveop] Posting updated files for app 'gta5'
+[2026-10-23 07:14:56.176] [DISPLAY] [Main ] [cloudsaveop] File uploading completed for app 'gta5'
+[2026-10-23 07:14:56.176] [DISPLAY] [Main ] [cloudsaveop] Getting update files for app 'gta5'
+[2026-10-23 07:14:56.193] [DISPLAY] [Main ] [cloudsaveop] File downloading completed for app 'gta5'
+[2026-10-23 07:14:56.193] [DISPLAY] [Main ] [cloudsaveop] Deleting updated files for app 'gta5'
+[2026-10-23 07:14:56.211] [DISPLAY] [Main ] [cloudsaveop] Files deletion completed for app 'gta5'
+[2026-10-23 07:14:56.211] [DISPLAY] [Main ] [cloudsaveop] Swapping updated files in place for app 'gta5'
+[2026-10-23 07:14:56.230] [DISPLAY] [Main ] [cloudsaveop] Finished syncing cloud saves for app 'gta5'
+[2026-10-23 07:14:56.803] [DISPLAY] [net2 ] [audio] Valid Audio Device: true
+[2026-10-23 07:14:57.448] [DISPLAY] [Main ] [rline_pc] /launcher/11/launcherservices/auth.asmx/ExchangeTitleAccessToken 200 | 0 | c536b8d9-9b36-48ff-8bab-7c63ed629ecb
+[2026-10-23 07:14:57.543] [DISPLAY] [13084] [gamelaunch] Launching game...
+[2026-10-23 07:14:57.543] [DISPLAY] [13084] [gamelaunch]  Path: C:\Program Files\Rockstar Games\Grand Theft Auto V Legacy\GTA5.exe
+[2026-10-23 07:14:57.543] [DISPLAY] [13084] [gamelaunch]  Command Line: "C:\Program Files\Rockstar Games\Grand Theft Auto V Legacy\GTA5.exe" -skipPatcherCheck -minmodeApp=gta5 @args.txt -enableCrashpad @commandline.txt -fromRGL -scDiscordClientId=356876176465199104 -rglLanguage=en-US -nobattleye
+[2026-10-23 07:14:57.543] [DISPLAY] [13084] [gamelaunch]  Working Directory: C:\Program Files\Rockstar Games\Grand Theft Auto V Legacy
+[2026-10-23 07:15:03.000] [DISPLAY] [Main ] [rline_roshttptask] /launcher/11/launcherservices/Presence.asmx/SetAttributes | 200 | 0 | 82c884f2-7513-48e9-8aa7-72c19f45a75d
+[2026-10-23 07:15:05.275] [DISPLAY] [Main ] [rline_pc] /launcher/11/launcherservices/Presence.asmx/SetActiveTitlePlatform 200 | 0 | 148975ef-e7a5-4ed4-8bab-f6253deae745
+[2026-10-23 07:18:30.424] [DISPLAY] [Main ] [rline_pc] /launcher/11/launcherservices/Telemetry.asmx/SubmitCompressed 200 | 0 | 6f8ac8c5-e709-4c8b-bd62-703453b78a7d
+[2026-10-23 07:18:40.231] [DISPLAY] [Main ] [rline_roshttptask] /launcher/11/launcherservices/Telemetry.asmx/SubmitCompressed | 200 | 0 | de07219c-e541-49d5-b39e-b5cc98dba803
+[2026-10-23 07:20:03.633] [DISPLAY] [Main ] [rline_roshttptask] /launcher/11/launcherservices/ProfileStatGroups.asmx/SubmitUpdate | 200 | 0 | c6305be7-46bc-4857-9671-88d5f53cd8df
+[2026-10-23 07:20:18.162] [DISPLAY] [Main ] [rline_roshttptask] /launcher/11/launcherservices/Presence.asmx/GetMessages | 200 | 0 | 3fa355a2-609b-4beb-a7fc-91cdfd2341b1
+[2026-10-23 07:20:20.677] [DISPLAY] [Main ] [rline_roshttptask] /launcher/11/launcherservices/Presence.asmx/SetAttributes | 200 | 0 | b9883f54-2bac-4b59-9643-2f0d5279bdfe
+[2026-10-23 07:20:22.156] [DISPLAY] [Main ] [rline_pc] /launcher/11/launcherservices/Presence.asmx/SetRichPresence 200 | 0 | 71613f76-6565-47ba-87a2-d8583b0fa01a
+[2026-10-23 07:23:35.559] [DISPLAY] [Main ] [rline_roshttptask] /launcher/11/launcherservices/Presence.asmx/GetMessages | 200 | 0 | ff4ae02a-5217-45fa-91dd-d5a5b018b92b
+[2026-10-23 07:25:04.604] [DISPLAY] [Main ] [rline_roshttptask] /launcher/11/launcherservices/ProfileStatGroups.asmx/SubmitUpdate | 200 | 0 | 6558d300-faac-4daa-9b63-a830b7168fa6
+[2026-10-23 07:30:04.924] [DISPLAY] [Main ] [rline_roshttptask] /launcher/11/launcherservices/ProfileStatGroups.asmx/SubmitUpdate | 200 | 0 | dbc0972a-345c-4492-87d5-93ca19f5bcfe
+[2026-10-23 07:30:53.470] [DISPLAY] [Main ] [rline_roshttptask] /launcher/11/launcherservices/Telemetry.asmx/SubmitCompressed | 200 | 0 | 9c544eff-e9ac-4a97-86af-317177baff60
+[2026-10-23 07:35:04.550] [DISPLAY] [Main ] [rline_roshttptask] /launcher/11/launcherservices/ProfileStatGroups.asmx/SubmitUpdate | 200 | 0 | 4de49659-dbf7-46d7-aadc-cb7174d69aa5
+[2026-10-23 07:40:04.413] [DISPLAY] [Main ] [rline_roshttptask] /launcher/11/launcherservices/ProfileStatGroups.asmx/SubmitUpdate | 200 | 0 | e81157fb-e9d0-4705-8e91-9cd97171e4e9
+[2026-10-23 07:41:01.247] [DISPLAY] [Main ] [scuicallbacks] System is suspending.
+[2026-10-23 07:41:01.247] [DISPLAY] [Main ] [scuicallbacks] Windows session event: lock
+[2026-10-23 10:42:29.568] [ ERROR ] [bgsvc] [svc_transactionqueue] Transaction 193 duration: 10886961 ms (Queued 10886918 ms, starting 43 ms, working 43 ms)
+[2026-10-23 10:42:32.693] [DISPLAY] [http2] [idownloader] Starting download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/launcher_online_config.xml'
+[2026-10-23 10:42:32.869] [ ERROR ] [Main ] [playtime] Publish failed
+[2026-10-23 10:42:33.126] [ ERROR ] [http2] [idownloader] Error: The Rockstar update service is unavailable (code 234). If you continue to have problems playing the game, please contact Rockstar Games Customer Support at https://support.rockstargames.com.
+[2026-10-23 10:42:33.126] [ ERROR ] [http2] [idownloader] Error code: 234 Result 400
+[2026-10-23 10:42:33.126] [ ERROR ] [http2] [idownloader] Http info: abort:5, commit:1, http:400, alloc:0, recv:7, send:10, tcpe:0, tcpr:0)
+[2026-10-23 10:42:33.126] [DISPLAY] [http2] [idownloader] Completed download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/launcher_online_config.xml' (status: 4/400)
+[2026-10-23 17:59:41.670] [DISPLAY] [Main ] [scuicallbacks] System is resuming from suspend.
+[2026-10-23 17:59:42.030] [ ERROR ] [Main ] [playtime] Publish failed
+[2026-10-23 17:59:44.313] [DISPLAY] [http8] [idownloader] Starting download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/launcher_online_config.xml'
+[2026-10-23 17:59:44.429] [ ERROR ] [http8] [idownloader] Error: The Rockstar update service is unavailable (code 234). If you continue to have problems playing the game, please contact Rockstar Games Customer Support at https://support.rockstargames.com.
+[2026-10-23 17:59:44.429] [ ERROR ] [http8] [idownloader] Error code: 234 Result 400
+[2026-10-23 17:59:44.429] [ ERROR ] [http8] [idownloader] Http info: abort:5, commit:1, http:400, alloc:0, recv:7, send:10, tcpe:0, tcpr:0)
+[2026-10-23 17:59:44.429] [DISPLAY] [http8] [idownloader] Completed download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/launcher_online_config.xml' (status: 4/400)
+[2026-10-23 18:00:08.142] [DISPLAY] [Main ] [rline_roshttptask] /launcher/11/launcherservices/Presence.asmx/GetMessages | 200 | 0 | f95d8574-236e-4b21-ba33-3f606ee4e741
+[2026-10-23 18:00:14.670] [DISPLAY] [Main ] [rline_roshttptask] /launcher/11/launcherservices/Presence.asmx/SetAttributes | 200 | 0 | aa862bd5-0bef-4fce-94a3-3061ba81298c
+[2026-10-23 18:00:27.984] [DISPLAY] [Main ] [scuicallbacks] Windows session event: unlock
+[2026-10-23 18:04:40.997] [DISPLAY] [Main ] [rline_roshttptask] /launcher/11/launcherservices/ProfileStatGroups.asmx/SubmitUpdate | 200 | 0 | b536b36a-872e-4d91-8f0c-c5afc5331bb2
+[2026-10-23 18:09:45.550] [DISPLAY] [Main ] [rline_roshttptask] /launcher/11/launcherservices/ProfileStatGroups.asmx/SubmitUpdate | 200 | 0 | edaca2bf-a887-4359-b683-04e5d4524e8c
+[2026-10-23 18:10:33.395] [DISPLAY] [Main ] [rline_roshttptask] /launcher/11/launcherservices/Telemetry.asmx/SubmitCompressed | 200 | 0 | a7d3f4b0-30a7-4d37-b503-1467bc95feb1
+[2026-10-23 18:11:07.150] [DISPLAY] [13084] [gamelaunch] Game exited with code 0x0 (0)
+[2026-10-23 18:11:08.088] [DISPLAY] [13084] [crashdetection] Game left no exit file.
+[2026-10-23 18:11:08.139] [DISPLAY] [13084] [crashdetection] Exit code 0x0 indicates a clean game shutdown
+[2026-10-23 18:11:08.731] [DISPLAY] [Main ] [rline_roshttptask] /launcher/11/launcherservices/Presence.asmx/SetAttributes | 200 | 0 | 94235a9b-e95f-4e89-9e06-dc7ca240ae9b
+[2026-10-23 18:11:09.097] [DISPLAY] [Main ] [cloudsaveop] Cloud Save sync requested for app 'gta5'
+[2026-10-23 18:11:09.134] [DISPLAY] [Main ] [cloudsaveop] Starting cloud save enabled check for app 'gta5'
+[2026-10-23 18:11:09.237] [DISPLAY] [Main ] [cloudsaveop] Received cloud saves enabled state for app 'gta5' = enabled
+[2026-10-23 18:11:09.237] [DISPLAY] [Main ] [cloudsaveop] Title access token was missing or expired, refreshing access for title 'gta5'
+[2026-10-23 18:11:09.238] [DISPLAY] [Main ] [cloudsaveop] Retrieving access token for title 'gta5' (11)
+[2026-10-23 18:11:09.857] [DISPLAY] [Main ] [rline_roshttptask] /launcher/11/launcherservices/app.asmx/GetTitleAccessToken2 | 200 | 0 | f0970722-c3d5-4e78-9c7a-dd875c33c5af
+[2026-10-23 18:11:09.877] [DISPLAY] [Main ] [cloudsaveop] Identifying potential cloud save conflicts for app 'gta5'
+[2026-10-23 18:11:10.544] [DISPLAY] [x2150] [rline_pc] /launcher/11/launcherservices/cloudsave.asmx/GetCloudSaveManifest 200 | 0 | 40be2f83-f8c7-4311-9210-f15ce2c45b80
+[2026-10-23 18:11:10.576] [DISPLAY] [Main ] [cloudsaveop] Received modification list of cloud save files for title 'gta5'
+[2026-10-23 18:11:10.576] [DISPLAY] [Main ] [cloudsaveop] Retrieving conflict metadata for app 'gta5'
+[2026-10-23 18:11:10.592] [DISPLAY] [Main ] [cloudsaveop] Downloaded conflict metadata for app 'gta5'
+[2026-10-23 18:11:10.597] [DISPLAY] [Main ] [cloudsaveop] Posting updated files for app 'gta5'
+[2026-10-23 18:11:10.612] [DISPLAY] [Main ] [cloudsaveop] File uploading completed for app 'gta5'
+[2026-10-23 18:11:10.612] [DISPLAY] [Main ] [cloudsaveop] Getting update files for app 'gta5'
+[2026-10-23 18:11:10.614] [DISPLAY] [Main ] [rline_pc] /launcher/11/launcherservices/Presence.asmx/SetActiveTitlePlatform 200 | 0 | 5dabcf83-e598-4a39-8e2c-7fef7f45df20
+[2026-10-23 18:11:10.679] [DISPLAY] [Main ] [cloudsaveop] File downloading completed for app 'gta5'
+[2026-10-23 18:11:10.683] [DISPLAY] [Main ] [cloudsaveop] Deleting updated files for app 'gta5'
+[2026-10-23 18:11:10.712] [DISPLAY] [Main ] [cloudsaveop] Files deletion completed for app 'gta5'
+[2026-10-23 18:11:10.712] [DISPLAY] [Main ] [cloudsaveop] Swapping updated files in place for app 'gta5'
+[2026-10-23 18:11:10.752] [DISPLAY] [Main ] [cloudsaveop] Finished syncing cloud saves for app 'gta5'
+[2026-10-23 18:11:11.762] [DISPLAY] [Main ] [rline_roshttptask] /launcher/11/launcherservices/ProfileStatGroups.asmx/SubmitUpdate | 200 | 0 | 86a24267-381f-4f0e-8aa6-368c852a1420
+[2026-10-23 18:11:11.766] [DISPLAY] [Main ] [rline_pc] /launcher/11/launcherservices/Presence.asmx/SetRichPresence 200 | 0 | 1895d8a6-f48f-49f0-9ef2-629c58dae951
+[2026-10-23 18:11:12.097] [DISPLAY] [13084] [gamelaunch] Game launch thread: ended
+[2026-10-23 18:11:13.305] [DISPLAY] [Admin] [titlemanager] Downloading title list...
+[2026-10-23 18:11:13.306] [DISPLAY] [Admin] [titlemanager] Downloading title list (SCS)...
+[2026-10-23 18:11:13.313] [DISPLAY] [Admin] [titlemanager] Retrieving apps and packages list
+[2026-10-23 18:11:13.801] [DISPLAY] [Main ] [rline_roshttptask] /launcher/11/launcherservices/app.asmx/GetAppsAndPackages | 200 | 0 | df528d33-b70a-4f35-85a6-986d3320faed
+[2026-10-23 18:11:15.216] [DISPLAY] [Main ] [scuicallbacks] Close requested for launcher
+[2026-10-23 18:11:15.751] [DISPLAY] [Admin] [titlemanager] Title list updated.
+[2026-10-23 18:11:16.469] [DISPLAY] [Admin] [launcher] Launcher: 3, *0,  4, 1239, -1, BRANCHACCESS token="e+XYK5qJrBLOyKoXMYfl07MCN183xLzGBJXEIFLn8KLiSoIk7FQ1NcNiTEb9nR+AN9qRQv3DaHX8e4OUqLz+Ga93COJwK2ctfPqrDRFXzaBn7YSUG6KAUIz+5rIr2+I4",signature="D492spsVjCL+d4IsGn++Dj1sVkhcYVRx7g2K6kn/Vk0=",keyversion="2", BRANCHACCESS token="fiJAv3FTZN9kquygzBEPPQuiQsC9ryLEyEny6XqQGCo/RCHs3oLiDQgk4UJ+QWrrCbbV68NkkC6pTahxrhIqFb1hjX5eqRWsEw1VdSj8HZ4=",signature="XIlU7lLb+OSOVfYAdfKxPGZiBEY4IAgbybVp3aGPtWQ=",keyversion="2"
+[2026-10-23 18:11:16.480] [DISPLAY] [Admin] [mergedmanifest] Using build collection for gta5
+[2026-10-23 18:11:17.078] [DISPLAY] [Main ] [rline_roshttptask] /launcher/11/launcherservices/app.asmx/GetBuildCollection2 | 200 | 0 | 0a908ba8-487f-41f9-81c7-b0ac7df7ce14
+[2026-10-23 18:11:17.819] [DISPLAY] [Admin] [mergedmanifest] Using build collection for gta5
+[2026-10-23 18:11:19.548] [DISPLAY] [Admin] [statuschecker] Title Grand Theft Auto V Legacy: No update
+[2026-10-23 18:11:19.549] [DISPLAY] [Admin] [mergedmanifest] Using regular build for launcher
+[2026-10-23 18:11:20.133] [DISPLAY] [Admin] [statuschecker] Title Rockstar Games Launcher: No update
+[2026-10-23 18:11:20.240] [DISPLAY] [Recog] [idownloader] Starting download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/recognised_titles.json'
+[2026-10-23 18:11:20.495] [DISPLAY] [Workr] [mergedmanifest] Using build collection for gta5
+[2026-10-23 18:11:20.701] [DISPLAY] [Workr] [mergedmanifest] Using build collection for gta5
+[2026-10-23 18:11:20.703] [DISPLAY] [Workr] [titleupdater] Doing chunk checks for gta5...
+[2026-10-23 18:11:20.955] [DISPLAY] [Recog] [idownloader] Completed download of 'https://gamedownloads-rockstargames-com.akamaized.net/public/recognised_titles.json' (status: 0/200)
+[2026-10-23 18:11:21.169] [DISPLAY] [Scang] [recogniser] Scanning for new titles in libraries...
+[2026-10-23 18:11:21.197] [DISPLAY] [Scang] [recogniser] New title scan complete, result: 0

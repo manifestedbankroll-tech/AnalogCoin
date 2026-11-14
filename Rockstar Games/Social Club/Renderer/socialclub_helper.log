@@ -1,0 +1,23 @@
+[2026-07-06 18:06:17.901] [ 15276] [1544] ===================================
+[2026-07-06 18:06:17.914] [ 15276] [1544] Browser process opened from pid: 12804
+[2026-07-06 18:06:17.916] [ 15276] [1544] Language: en
+[2026-07-06 18:06:17.925] [ 15276] [1544] Connecting to IPC channel: rgsc_ipc_3204_channel_0
+[2026-07-06 18:06:17.937] [ 15276] [1544] Product version: RockstarGames/2.4.0.216/1.0.1013.34/gta5/PC
+[2026-07-06 18:06:19.054] [ 15276] [1544] OnChannelConnected - rgsc_ipc_3204_channel_0 (remoteProcessId 12804)
+[2026-07-06 18:06:23.396] [ 15276] [1544] Renderer[1][7476] IPC Channel Response: 7476 -> rgsc_ipc_3204_channel_1
+[2026-07-06 18:06:23.399] [ 15276] [1544] Renderer[1][7476] Connecting to IPC channel: rgsc_ipc_3204_channel_1
+[2026-07-06 18:06:24.095] [ 15276] [1544] Renderer[1][7476] OnChannelConnected - rgsc_ipc_3204_channel_1 (remoteProcessId 12804)
+[2026-07-29 18:49:54.402] [ 12472] [120C] ===================================
+[2026-07-29 18:49:54.562] [ 12472] [120C] Browser process opened from pid: 6920
+[2026-07-29 18:49:54.567] [ 12472] [120C] Language: en
+[2026-07-29 18:49:54.572] [ 12472] [120C] Connecting to IPC channel: rgsc_ipc_1b08_channel_0
+[2026-07-29 18:49:54.591] [ 12472] [120C] Product version: RockstarGames/2.4.0.216/1.0.1158.13/gta5/PC
+[2026-07-29 18:49:59.174] [ 12472] [120C] OnChannelConnected - rgsc_ipc_1b08_channel_0 (remoteProcessId 6920)
+[2026-07-29 18:50:08.004] [ 12472] [120C] Renderer[1][12052] IPC Channel Response: 12052 -> rgsc_ipc_1b08_channel_1
+[2026-07-29 18:50:08.007] [ 12472] [120C] Renderer[1][12052] Connecting to IPC channel: rgsc_ipc_1b08_channel_1
+[2026-07-29 18:50:08.234] [ 12472] [120C] Renderer[1][12052] OnChannelConnected - rgsc_ipc_1b08_channel_1 (remoteProcessId 6920)
+[2026-07-29 18:51:38.258] [ 12472] [120C] OnChannelError() - rgsc_ipc_1b08_channel_0
+[2026-07-29 18:51:38.262] [ 12472] [120C] Shutdown requested
+[2026-07-29 18:51:40.309] [ 12472] [120C] Timed out waiting for windows to close on shutdown
+[2026-07-29 18:51:40.325] [ 12472] [120C] MainMessageLoopInternalPump - Preparing to shutdown
+[2026-07-29 18:51:43.419] [ 12472] [120C] MainMessageLoopInternalPump - Shutdown

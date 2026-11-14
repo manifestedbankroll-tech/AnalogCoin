@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vault & Co. — Premium Digital Asset Vault</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .ガラス { background: rgba(15, 23, 42, 0.75); backdrop-filter: blur(16px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .gradient-text { background: linear-gradient(135deg, #fbbf24 0%, #34d399 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .glow-gold { box-shadow: 0 0 25px rgba(251, 191, 36, 0.3); }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased selection:bg-amber-500 selection:text-slate-950">
+    <!-- Navigation -->
+    <nav class="ガラス sticky top-0 z-50 px-6 py-4 flex items-center justify-between">
+        <div class="flex items-center space-x-3">
+            <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-amber-500 to-emerald-500 flex items-center justify-center font-bold text-slate-950 text-xl shadow-lg shadow-amber-500/20">V</div>
+            <span class="font-black text-2xl tracking-wider text-white">VAULT<span class="gradient-text">&</span>CO</span>
+        </div>
+        <div class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-300">
+            <a href="#templates" class="hover:text-amber-400 transition-colors">Templates</a>
+            <a href="#sandbox" class="hover:text-amber-400 transition-colors">Live Sandbox</a>
+            <a href="#dashboard" class="hover:text-amber-400 transition-colors">Earnings</a>
+        </div>
+        <button onclick="document.getElementById('sandbox').scrollIntoView({behavior:'smooth'})" class="px-5 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-sm transition-all transform hover:scale-105 shadow-lg shadow-amber-500/20">
+            Access Vault
+        </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative px-6 pt-20 pb-32 overflow-hidden flex flex-col items-center text-center">
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-tr from-amber-500/10 to-emerald-500/10 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-amber-500/30 bg-amber-500/10 text-amber-400 text-xs font-semibold uppercase tracking-widest mb-8">
+            <i class="fa-solid fa-lock"></i> Instant Asset Delivery Vault
+        </div>
+        <h1 class="max-w-4xl text-5xl md:text-7xl font-extrabold tracking-tight leading-none mb-6">
+            Launch Your Digital Empire With <span class="gradient-text">High-Margin Assets</span>
+        </h1>
+        <p class="max-w-2xl text-slate-400 text-lg md:text-xl mb-10 leading-relaxed">
+            Stop building from scratch. Access our curated vault of high-converting pitch decks, legal bundles, and automated financial models designed to generate revenue today.
+        </p>
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4 w-full max-w-md">
+            <a href="#templates" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-white text-slate-950 font-bold text-base hover:bg-slate-200 transition-all shadow-xl">Browse Catalog</a>
+            <a href="#sandbox" class="w-full sm:w-auto px-8 py-4 rounded-xlガラス text-slate-100 font-bold text-base hover:border-amber-500/50 transition-all">Test Live Sandbox</a>
+        </div>
+    </header>
+
+    <!-- Live Product Interactive Sandbox -->
+    <section id="sandbox" class="px-6 py-20 max-w-7xl mx-auto">
+        <div class="text-center max-w-3xl mx-auto mb-16">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">Interactive Product Sandbox</h2>
+            <p class="text-slate-400">Test drive our top-selling digital template live. Modify parameters below to see dynamic asset generation in real time.</p>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div class="space-y-6ガラス p-8 rounded-3xl glow-gold">
+                <h3 class="text-xl font-bold flex items-center gap-2 text-amber-400">
+                    <i class="fa-solid fa-sliders"></i> Customize Asset Parameters
+                </h3>
+                <div>
+                    <label class="block text-sm font-medium text-slate-400 mb-2">Project Name</label>
+                    <input type="text" id="sandboxName" value="SaaS Growth Engine" oninput="updateSandbox()" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-amber-500">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-slate-400 mb-2">Target Revenue Goal ($)</label>
+                    <input type="number" id="sandboxGoal" value="50000" oninput="updateSandbox()" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-amber-500">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-slate-400 mb-2">Primary Asset Color</label>
+                    <input type="color" id="sandboxColor" value="#34d399" onchange="updateSandbox()" class="w-full h-12 bg-slate-900 border border-slate-700 rounded-xl cursor-pointer p-1">
+                </div>
+            </div>
+            <div class="ガラス p-8 rounded-3xl border-slate-800 relative min-h-[400px] flex flex-col justify-between">
+                <div>
+                    <div class="flex items-center justify-between mb-6 border-b border-slate-800 pb-4">
+                        <span id="previewTitle" class="font-bold text-xl text-white">SaaS Growth Engine</span>
+                        <span class="px-3 py-1 rounded-full text-xs font-semibold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">Live Preview</span>
+                    </div>
+                    <div id="previewBadge" class="w-12 h-12 rounded-2xl flex items-center justify-center text-2xl mb-6 transition-colors shadow-lg" style="background-color: #34d399; color: #0f2742;">
+                        <i class="fa-solid fa-rocket"></i>
+                    </div>
+                    <p class="text-slate-300 text-sm leading-relaxed mb-6">
+                        This automated financial model dynamically calculates runway and acquisition metrics for <span id="previewTextGoal" class="font-bold text-amber-400">$50,000</span> target goals. Completely editable inside your downloaded package.
+                    </p>
+                </div>
+                <div class="pt-6 border-t border-slate-800 flex items-center justify-between">
+                    <div>
+                        <span class="text-slate-400 text-xs block">Instant Download</span>
+                        <span class="text-2xl font-black text-white">$49<span class="text-sm font-normal text-slate-400">/lifetime</span></span>
+                    </div>
+                    <button onclick="openCheckout('SaaS Growth Engine', 49)" class="px-6 py-3 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-sm transition-all shadow-lg shadow-amber-500/20">
+                        Unlock Asset Vault
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Catalog Section -->
+    <section id="templates" class="px-6 py-20 bg-slate-900/50 border-y border-slate-800">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Curated Asset Vault</h2>
+                <p class="text-slate-400">High-margin digital products ready for immediate deployment and resale.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Product 1 -->
+                <div class="ガラス rounded-3xl p-6 flex flex-col justify-between hover:border-amber-500/40 transition-all group">
+                    <div>
+                        <div class="w-12 h-12 rounded-2xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 text-xl mb-6 group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-chart-pie"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Agency Financial Model</h3>
+                        <p class="text-slate-400 text-sm mb-6">Automated P&L, cash flow forecasting, and pricing calculator template.</p>
+                        <ul class="space-y-3 text-sm text-slate-300 mb-8">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400 text-xs"></i> 100% Editable Formulas</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400 text-xs"></i> Google Sheets & Excel</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400 text-xs"></i> Resale Rights Included</li>
+                        </ul>
+                    </div>
+                    <div class="pt-6 border-t border-slate-800 flex items-center justify-between">
+                        <span class="text-2xl font-black text-white">$69</span>
+                        <button onclick="openCheckout('Agency Financial Model', 69)" class="px-5 py-2.5 rounded-xl bg-slate-800 hover:bg-amber-500 hover:text-slate-950 font-bold text-sm transition-all">Instant Access</button>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="ガラス rounded-3xl p-6 flex flex-col justify-between hover:border-emerald-500/40 transition-all group border-2 border-emerald-500/30 relative">
+                    <span class="absolute -top-3 left-6 px-3 py-1 rounded-full text-[10px] font-extrabold uppercase tracking-widest bg-emerald-500 text-slate-950">Best Seller</span>
+                    <div>
+                        <div class="w-12 h-12 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 text-xl mb-6 group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-file-contract"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">High-Ticket Client Contract Bundle</h3>
+                        <p class="text-slate-400 text-sm mb-6">Attorney-drafted master services agreements, scopes of work, and NDAs.</p>
+                        <ul class="space-y-3 text-sm text-slate-300 mb-8">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400 text-xs"></i> Multi-Jurisdiction</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400 text-xs"></i> Fill-in-the-Blank format</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400 text-xs"></i> Lifetime Updates</li>
+                        </ul>
+                    </div>
+                    <div class="pt-6 border-t border-slate-800 flex items-center justify-between">
+                        <span class="text-2xl font-black text-white">$129</span>
+                        <button onclick="openCheckout('High-Ticket Client Contract Bundle', 129)" class="px-5 py-2.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold text-sm transition-all shadow-lg shadow-emerald-500/20">Instant Access</button>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="ガラス rounded-3xl p-6 flex flex-col justify-between hover:border-amber-500/40 transition-all group">
+                    <div>
+                        <div class="w-12 h-12 rounded-2xl bg-amber-500/10 border border-amber-500/20 flex items-center justify-center text-amber-400 text-xl mb-6 group-hover:scale-110 transition-transform">
+                            <i class="fa-solid fa-vector-square"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-2">Landing Page Wireframe Kit</h3>
+                        <p class="text-slate-400 text-sm mb-6">Figma and Tailwind CSS components optimized for maximum conversion.</p>
+                        <ul class="space-y-3 text-sm text-slate-300 mb-8">
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400 text-xs"></i> 50+ UI Sections</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400 text-xs"></i> Mobile Responsive</li>
+                            <li class="flex items-center gap-2"><i class="fa-solid fa-check text-emerald-400 text-xs"></i> Dark & Light Mode</li>
+                        </ul>
+                    </div>
+                    <div class="pt-6 border-t border-slate-800 flex items-center justify-between">
+                        <span class="text-2xl font-black text-white">$89</span>
+                        <button onclick="openCheckout('Landing Page Wireframe Kit', 89)" class="px-5 py-2.5 rounded-xl bg-slate-800 hover:bg-amber-500 hover:text-slate-950 font-bold text-sm transition-all">Instant Access</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Monetization & Analytics Dashboard (Admin View) -->
+    <section id="dashboard" class="px-6 py-20 max-w-7xl mx-auto">
+        <div class="flex flex-col md:flex-row items-center justify-between mb-12 gap-4">
+            <div>
+                <h2 class="text-3xl font-bold">Live Monetization Dashboard</h2>
+                <p class="text-slate-400">Simulated real-time revenue analytics for your digital asset marketplace.</p>
+            </div>
+            <div class="flex items-center gap-3">
+                <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+                    <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span> Live Tracking Active
+                </span>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-12">
+            <div class="ガラス p-6 rounded-3xl border-l-4 border-amber-500">
+                <span class="text-slate-400 text-xs font-semibold uppercase tracking-wider block mb-1">Total Revenue</span>
+                <span id="statRevenue" class="text-3xl font-black text-white">$1,248</span>
+                <span class="text-emerald-400 text-xs mt-2 block font-medium">↑ 12% from yesterday</span>
+            </div>
+            <div class="ガラス p-6 rounded-3xl border-l-4 border-emerald-500">
+                <span class="text-slate-400 text-xs font-semibold uppercase tracking-wider block mb-1">Total Sales</span>
+                <span id="statSales" class="text-3xl font-black text-white">18</span>
+                <span class="text-slate-400 text-xs mt-2 block">Across 3 digital products</span>
+            </div>
+            <div class="ガラス p-6 rounded-3xl border-l-4 border-purple-500">
+                <span class="text-slate-400 text-xs font-semibold uppercase tracking-wider block mb-1">Page Views</span>
+                <span class="text-3xl font-black text-white">1,420</span>
+                <span class="text-emerald-400 text-xs mt-2 block">High intent traffic</span>
+            </div>
+            <div class="ガラス p-6 rounded-3xl border-l-4 border-blue-500">
+                <span class="text-slate-400 text-xs font-semibold uppercase tracking-wider block mb-1">Conversion Rate</span>
+                <span class="text-3xl font-black text-white">1.26%</span>
+                <span class="text-amber-400 text-xs mt-2 block">Target > 2.0%</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Checkout Modal -->
+    <div id="checkoutModal" class="fixed inset-0 z-50 flex items-center justify-center p-6 bg-slate-950/80 backdrop-blur-md hidden opacity-0 transition-opacity duration-300">
+        <div class="ガラス w-full max-w-md p-8 rounded-3xl relative shadow-2xl border border-slate-700 transform scale-95 transition-transform duration-300">
+            <button onclick="closeCheckout()" class="absolute top-6 right-6 text-slate-400 hover:text-white text-xl"><i class="fa-solid fa-xmark"></i></button>
+            <h3 class="text-2xl font-bold mb-2">Secure Checkout</h3>
+            <p id="checkoutItemName" class="text-amber-400 font-semibold mb-6">Asset Name</p>
+            <form id="paymentForm" onsubmit="processPayment(event)" class="space-y-4">
+                <div>
+                    <label class="block text-xs font-medium text-slate-400 mb-1">Email Address for Delivery</label>
+                    <input type="email" required placeholder="you@domain.com" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-amber-500 text-sm">
+                </div>
+                <div>
+                    <label class="block text-xs font-medium text-slate-400 mb-1">Card Information</label>
+                    <div class="relative">
+                        <input type="text" required placeholder="4242 •••• •••• 4242" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-amber-500 text-sm font-mono">
+                        <i class="fa-brands fa-cc-visa absolute right-4 top-1/2 -translate-y-1/2 text-xl text-slate-500"></i>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 gap-4">
+                    <div>
+                        <input type="text" required placeholder="MM/YY" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-amber-500 text-sm font-mono">
+                    </div>
+                    <div>
+                        <input type="password" required placeholder="CVC" maxlength="4" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-amber-500 text-sm font-mono">
+                    </div>
+                </div>
+                <button type="submit" id="payButton" class="w-full py-4 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-base transition-all shadow-lg shadow-amber-500/20 flex items-center justify-center gap-2 mt-6">
+                    <span>Pay</span><span id="checkoutAmount">$0</span>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Post-Purchase Vault Modal -->
+    <div id="vaultModal" class="fixed inset-0 z-50 flex items-center justify-center p-6 bg-slate-950/80 backdrop-blur-md hidden opacity-0 transition-opacity duration-300">
+        <div class="ガラス w-full max-w-lg p-8 rounded-3xl relative shadow-2xl border border-emerald-500/50 transform scale-95 transition-transform duration-300 text-center">
+            <div class="w-16 h-16 rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 flex items-center justify-center text-3xl mx-auto mb-6 shadow-xl shadow-emerald-500/10">
+                <i class="fa-solid fa-lock-open"></i>
+            </div>
+            <h3 class="text-3xl font-extrabold mb-2">Access Granted!</h3>
+            <p class="text-slate-400 mb-8">Your digital asset vault has been unlocked. Download your files below.</p>
+            <div class="bg-slate-900/80 p-6 rounded-2xl border border-slate-800 text-left space-y-4 mb-8">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <span class="block text-xs text-slate-500 font-semibold uppercase">Acquired Asset</span>
+                        <span id="vaultItemName" class="font-bold text-white text-base">Asset Name</span>
+                    </div>
+                    <span class="px-3 py-1 rounded-full text-xs font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">Verified</span>
+                </div>
+                <div>
+                    <span class="block text-xs text-slate-500 font-semibold uppercase mb-1">Your License Access Key</span>
+                    <div class="flex items-center gap-2">
+                        <input type="text" readonly id="licenseKey" value="VAULT-8892-X992-ALPHA" class="w-full bg-slate-950 border border-slate-800 rounded-xl px-3 py-2 text-xs font-mono text-emerald-400 focus:outline-none">
+                        <button onclick="copyKey()" class="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-xs font-bold transition-all">Copy</button>
+                    </div>
+                </div>
+            </div>
+            <button onclick="downloadAsset()" class="w-full py-4 rounded-xl bg-gradient-to-r from-emerald-500 to-teal-500 hover:from-emerald-400 hover:to-teal-400 text-slate-950 font-bold text-base transition-all shadow-xl shadow-emerald-500/20 flex items-center justify-center gap-2">
+                <i class="fa-solid fa-download"></i> Download Master Asset Package (.Zip)
+            </button>
+        </div>
+    </div>
+
+    <!-- JavaScript Application Logic -->
+    <script>
+        let currentCheckoutPrice = 0;
+        let currentCheckoutName = "";
+        let simulatedRevenue = 1248;
+        let simulatedSales = 18;
+
+        function updateSandbox() {
+            const name = document.getElementById('sandboxName').value;
+            const goal = document.getElementById('sandboxGoal').value;
+            const color = document.getElementById('sandboxColor').value;
+            
+            document.getElementById('previewTitle').innerText = name || "Custom Asset";
+            document.getElementById('previewTextGoal').innerText = `$${parseInt(goal || 0).toLocaleString()}`;
+            document.getElementById('previewBadge').style.backgroundColor = color;
+            document.getElementById('previewBadge').style.color = '#0f2742';
+        }
+
+        function openCheckout(name, price) {
+            currentCheckoutName = name;
+            currentCheckoutPrice = price;
+            document.getElementById('checkoutItemName').innerText = name;
+            document.getElementById('checkoutAmount').innerText = `$${price}`;
+            const modal = document.getElementById('checkoutModal');
+            modal.classList.remove('hidden');
+            setTimeout(() => {
+                modal.classList.remove('opacity-0');
+                modal.querySelector('.transform').classList.remove('scale-95');
+            }, 10);
+        }
+
+        function closeCheckout() {
+            const modal = document.getElementById('checkoutModal');
+            modal.classList.add('opacity-0');
+            modal.querySelector('.transform').classList.add('scale-95');
+            setTimeout(() => {
+                modal.classList.add('hidden');
+            }, 300);
+        }
+
+        function processPayment(e) {
+            e.preventDefault();
+            const btn = document.getElementById('payButton');
+            btn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Processing Transaction...';
+            btn.disabled = true;
+
+            setTimeout(() => {
+                btn.innerHTML = 'Pay';
+                btn.disabled = false;
+                closeCheckout();
+                
+                // Update stats
+                simulatedRevenue += currentCheckoutPrice;
+                simulatedSales += 1;
+                document.getElementById('statRevenue').innerText = `$${simulatedRevenue.toLocaleString()}`;
+                document.getElementById('statSales').innerText = simulatedSales;
+
+                // Open Vault
+                document.getElementById('vaultItemName').innerText = currentCheckoutName;
+                const randomKey = 'VAULT-' + Math.floor(1000 + Math.random() * 9000) + '-X' + Math.floor(100 + Math.random() * 900) + '-ALPHA';
+                document.getElementById('licenseKey').value = randomKey;
+
+                const vault = document.getElementById('vaultModal');
+                vault.classList.remove('hidden');
+                setTimeout(() => {
+                    vault.classList.remove('opacity-0');
+                    vault.querySelector('.transform').classList.remove('scale-95');
+                }, 10);
+            }, 1500);
+        }
+
+        function closeVault() {
+            const vault = document.getElementById('vaultModal');
+            vault.classList.add('opacity-0');
+            vault.querySelector('.transform').classList.add('scale-95');
+            setTimeout(() => {
+                vault.classList.add('hidden');
+            }, 300);
+        }
+
+        function copyKey() {
+            const copyText = document.getElementById("licenseKey");
+            copyText.select();
+            copyText.setSelectionRange(0, 99999);
+            navigator.clipboard.writeText(copyText.value);
+            alert("License key copied to clipboard!");
+        }
+
+        function downloadAsset() {
+            const textContent = `VAULT & CO. MASTER ASSET PACKAGE\nLicense Key: ${document.getElementById('licenseKey').value}\nAsset: ${document.getElementById('vaultItemName').value}\nThank you for your purchase!`;
+            const blob = new Blob([textContent], { type: "text/plain" });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `${document.getElementById('vaultItemName').value.replace(/\s+/g, '_')}_Package.txt`;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+            closeVault();
+        }
+    </script>
+</body>
+</html>

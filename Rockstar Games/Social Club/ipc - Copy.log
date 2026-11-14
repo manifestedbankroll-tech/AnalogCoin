@@ -1,0 +1,4 @@
+[0409/123303:WARNING:(169)] failed to create pipe: 2
+[0409/123303:WARNING:(46)] Unable to create pipe named "rgsc_launcher_0" in client mode.
+[0409/134819:WARNING:(169)] failed to create pipe: 2
+[0409/134819:WARNING:(46)] Unable to create pipe named "rgsc_launcher_0" in client mode.

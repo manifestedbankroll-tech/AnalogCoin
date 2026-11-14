@@ -1,0 +1,5 @@
+currency specifications
+Maximum Supply: 21 Million coins
+"Issuance Mechanism: Periodic Signal Release
+Having Mechanism: Reward reduces by 50% periodically
+Block Reward: 25 coins, halving every 210,000 blocks
