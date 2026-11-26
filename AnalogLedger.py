@@ -1,12 +1,15 @@
+from paypalcheckoutsdk.orders import OrdersCreateRequest
 import requests
 import json
 import os
-from paypalcheckoutsdk.core import PayPalHttpClient, SandboxEnvironment
-from paypalcheckoutsdk.orders import OrdersCreateRequest
-PAYPAL_CLIENT_ID = os.environ.get('PAYPAL_CLIENT_ID')
+def get_access_token():
+    PAYPAL_CLIENT_ID = os.environ.get('PAYPAL_CLIENT_ID')
+    client_id=os.environ.get('PAYPAL_CLIENT_ID')
+    client_secret=os.environ.get('PAYPAL_SECRET')
+    response=requests.post('https://api.paypal.com/v1/oauth2/token', auth=(client_id, client_secret), data={'grant_type': 'client_credentials'})
+    return response.json['access_token']
 PAYPAL_SECRET = os.environ.get('PAYPAL_SECRET')
 DEV_ADDRESS = os.environ.get('DEV_ADDRESS')
-client = PayPalHttpClient(SandboxEnvironment(client_id=PAYPAL_CLIENT_ID, client_secret=PAYPAL_SECRET))
 import time
 import hashlib
 import ecdsa 
