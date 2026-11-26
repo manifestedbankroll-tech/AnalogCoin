@@ -1,3 +1,4 @@
+import requests
 import json
 import os
 from paypalcheckoutsdk.core import PayPalHttpClient, SandboxEnvironment
