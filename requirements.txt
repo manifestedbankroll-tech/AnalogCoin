@@ -1,4 +1,3 @@
-paypalcheckoutsdk 
 requests 
 ecdsa
 paypal-checkout-sdk
